@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Western Cascade Finance</title>
+    <meta name="author" content="760955" >
+    <meta name="date" content="2019-01-14T11:50:58-0700" >
+    <link href="partB.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Staatliches" rel="stylesheet">
+  </head>
+  <body>
+<div id="bg">
+<div class="header">
+Western Cascade Finance
+<img src="pics/logo.png">
+</div>
+<div id="content">
+<h3>REGISTRATION</h3>
+<h4> Please fill in the following form:</h4>
+<hr>
+<form action="mailto:applications@wcf.ab.ca">
+<table>
+<tr>
+<td>Current Date:</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td>Full Name:</td>
+<td><input type="name" maxlength="25" autofocus="" pattern="^[a-zA-Z-\s]+[a-zA-z]*$" ></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="address" ></td>
+</tr>
+<tr>
+<td>Postal Code:</td>
+<td><input type="text" ></td>
+</tr>
+<tr>
+<td>Telephone Number:</td>
+<td><input type="tel"  pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="403-123-4567"></td>
+<td>
+<input type="radio" name="contact" value="business" size="10"> Business
+<input type="radio" name="contact" value="personal" size="10"> Personal</td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="name@sait.ca"></td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<td>Are you Currently A Client?</td>
+<td><input type="radio" name="client" value="clients" size="10">Yes
+<input type="radio" name="client" value="clients" size="10">No</td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="gender">Female
+<input type="radio" name="gender" value="gender">Male</td>
+</tr>
+<tr>
+<td>Age(Minimum 18):</td>
+<td><input type="number" min="18"></td>
+</tr>
+<tr>
+<td>
+Do you Own or Rent?
+</td>
+<td>
+<input type="radio" name="o/r" value="own/rent" size="10">Own
+<input type="radio" name="o/r" value="own/rent" size="10">Rent
+</td>
+</tr>
+<tr>
+<td>Annual Gross Income:</td>
+<td><input type="number" name="info" value="income" min="0"></td>
+</tr>
+</table>
+<br>
+<p>
+Do you own any of the following?
+<br>
+<input type="checkbox" name="savings" value="vehicle" size="10" > Vehicle
+<br>
+<input type="checkbox" name="savings" value="RRSP" size="10" > RRSP
+<br>
+<input type="checkbox" name="savings" value="TSFA" size="10" > TSFA
+<br>
+<input type="checkbox" name="savings" value="RRIF" size="10" > RRIF
+<br>
+</p>
+<p>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</p>
+</form>
+</div>
+</div>
+  </body>
+</html>
